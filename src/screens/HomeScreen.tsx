@@ -42,6 +42,17 @@ export default function HomeScreen() {
             <Text style={styles.searchPlaceholder}>Search for a service...</Text>
           </Pressable>
 
+          <Pressable style={styles.nearMeCard} onPress={() => navigation.navigate('KarigarsNearMe')}>
+            <View style={styles.nearMeIcon}>
+              <Ionicons name="navigate" size={20} color={colors.primary} />
+            </View>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.nearMeTitle}>Karigars Near You</Text>
+              <Text style={styles.nearMeSubtitle}>See who's available right now</Text>
+            </View>
+            <Ionicons name="chevron-forward" size={18} color={colors.textLight} />
+          </Pressable>
+
           <View style={styles.sectionHeader}>
             <Text style={styles.sectionTitle}>Popular Services</Text>
             <Pressable onPress={() => navigation.navigate('SelectService')}>
@@ -116,6 +127,27 @@ const styles = StyleSheet.create({
     marginTop: spacing.lg,
   },
   searchPlaceholder: { ...typography.body, color: colors.textLight },
+  nearMeCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    backgroundColor: colors.surface,
+    borderWidth: 1.5,
+    borderColor: colors.primary,
+    borderRadius: radius.md,
+    padding: spacing.md,
+    marginTop: spacing.md,
+  },
+  nearMeIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: radius.sm,
+    backgroundColor: colors.chipBg,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  nearMeTitle: { ...typography.h3, color: colors.text },
+  nearMeSubtitle: { ...typography.small, color: colors.textMuted, marginTop: 1 },
   sectionHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',

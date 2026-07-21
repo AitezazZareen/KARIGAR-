@@ -9,6 +9,7 @@ import JobOffersScreen from '../screens/JobOffersScreen';
 import JobInProgressScreen from '../screens/JobInProgressScreen';
 import WorkerProfileScreen from '../screens/WorkerProfileScreen';
 import WalletScreen from '../screens/WalletScreen';
+import KarigarsNearMeScreen from '../screens/KarigarsNearMeScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,7 @@ export default function RootNavigator() {
         <Stack.Screen name="JobInProgress" component={JobInProgressScreen} />
         <Stack.Screen name="WorkerProfile" component={WorkerProfileScreen} />
         <Stack.Screen name="Wallet" component={WalletScreen} />
+        <Stack.Screen name="KarigarsNearMe" component={KarigarsNearMeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
