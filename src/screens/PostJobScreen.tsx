@@ -69,7 +69,7 @@ export default function PostJobScreen() {
 
         <Text style={styles.fieldLabel}>Location</Text>
         <Pressable style={styles.selectField}>
-          <Text style={styles.fieldValue}>DHA Phase 5, Lahore</Text>
+          <Text style={styles.fieldValue}>DHA Phase 2, Islamabad</Text>
           <Ionicons name="location-outline" size={16} color={colors.textLight} />
         </Pressable>
       </ScrollView>

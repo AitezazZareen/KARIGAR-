@@ -33,7 +33,7 @@ export default function WorkerProfileScreen() {
             </View>
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
               <Ionicons name="location-outline" size={13} color={colors.textMuted} />
-              <Text style={styles.meta}>Lahore, Punjab</Text>
+              <Text style={styles.meta}>Islamabad, Pakistan</Text>
             </View>
           </View>
         </View>

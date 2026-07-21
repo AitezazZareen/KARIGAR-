@@ -86,7 +86,7 @@ export default function KarigarsNearMeScreen() {
         ))}
         <View style={styles.mapCaption}>
           <Ionicons name="location" size={14} color={colors.primary} />
-          <Text style={styles.mapCaptionText}>{filtered.length} karigars near DHA Phase 5, Lahore</Text>
+          <Text style={styles.mapCaptionText}>{filtered.length} karigars near DHA Phase 2, Islamabad</Text>
         </View>
       </View>
 

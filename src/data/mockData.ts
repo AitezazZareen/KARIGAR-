@@ -92,7 +92,7 @@ export const workers: Worker[] = [
     estimate: 1900,
     availability: '09:00 AM',
     availableNow: false,
-    about: 'Experienced in new connections and fault diagnosis across Lahore.',
+    about: 'Experienced in new connections and fault diagnosis across Islamabad.',
     skills: ['New Connections', 'Fault Finding'],
     avatarColor: '#8E6DD1',
   },
@@ -110,7 +110,7 @@ export const workers: Worker[] = [
     estimate: 1500,
     availability: 'today at 4:00 PM',
     availableNow: true,
-    about: 'Specialist in pipe fitting, leak repair, and bathroom fittings across Lahore.',
+    about: 'Specialist in pipe fitting, leak repair, and bathroom fittings across Islamabad.',
     skills: ['Pipe Fitting', 'Leak Repair', 'Bathroom Fittings'],
     avatarColor: '#3AA6A0',
   },
@@ -261,7 +261,7 @@ export const conversations: Conversation[] = [
 
 export const activeJob = {
   title: 'House Wiring Fixing',
-  location: 'DHA Phase 5, Lahore',
+  location: 'DHA Phase 2, Islamabad',
   time: 'Tomorrow, 10:00 AM',
   price: 1800,
   worker: workers[0],

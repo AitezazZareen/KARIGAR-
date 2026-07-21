@@ -22,7 +22,7 @@ export default function HomeScreen() {
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: spacing.xl }}>
         <View style={styles.topBar}>
           <Pressable style={styles.locationRow}>
-            <Text style={styles.locationText}>Lahore</Text>
+            <Text style={styles.locationText}>Islamabad</Text>
             <Ionicons name="chevron-down" size={16} color={colors.text} />
           </Pressable>
           <Pressable hitSlop={10}>
